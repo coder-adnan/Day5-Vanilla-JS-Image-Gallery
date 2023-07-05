@@ -1,0 +1,25 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.mainContainer {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 1em;
+  gap: 2em; /* Add gap between image cards */
+  padding: 2em 5em;
+}
+
+.imageCards {
+  flex: 0 0 200px; /* Set a fixed width for each image card */
+  background-size: cover;
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 2px black;
+  margin-bottom: 1em; /* Add margin at the bottom for spacing */
+}
